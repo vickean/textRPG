@@ -1,0 +1,3 @@
+StartingRoom,EmptyCavePath,FindDaggerRoom,EmptyCavePath,GiantSpiderRoom,LeaveCaveRoom
+EmptyCavePath,,,,,
+FindDaggerRoom,EmptyCavePath,GiantSpiderRoom,EmptyCavePath,GiantSpiderRoom,LeaveCaveRoom
