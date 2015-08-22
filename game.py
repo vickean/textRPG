@@ -4,8 +4,7 @@ from player import Player
 def play():
     world.load_tiles()
     player = Player()
-    player.location_x, player.location_y = world.return_start_coordinates()
-    #These lines load the starting room and display the text.
+    # These lines load the starting room and display the text.
     room = world.tile_exists(player.location_x, player.location_y)
     print room.intro_text()
     while player.is_alive() and not player.victory:
@@ -24,5 +23,5 @@ def play():
                     break
 
 if __name__ == "__main__":
-   play()
+    play()
 

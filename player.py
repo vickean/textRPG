@@ -5,7 +5,7 @@ import random
 class Player(object):
     inventory = [items.Gold(15), items.Rock()]
     hp = 100
-    location_x, location_y = (2, 2)#Change to starting room coordinates
+    location_x, location_y = world.pos  # Change to starting room coordinates
     victory = False
 
     def is_alive(self):
